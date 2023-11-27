@@ -1,0 +1,19 @@
+@import "./base.css";
+
+#app {
+  width: 100%;
+}
+
+
+@media (min-width: 1024px) {
+  @font-face {
+    font-family: 'josefin_sans';
+    src: url('josefin_sans.ttf') format('truetype'); /* Ajusta la extensión según tu tipo de fuente */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'josefin_sans'; /* Usa el nombre que especificaste en font-family */
+  }
+}
